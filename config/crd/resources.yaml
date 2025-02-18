@@ -2973,6 +2973,12 @@ spec:
                 items:
                   type: string
                 type: array
+              additionalSshAuthorizedKeys:
+                description: AdditionalSSHAuthorizedKeys is a set of SSH public keys
+                  that will be added to all agents.
+                items:
+                  type: string
+                type: array
               additionalTrustBundle:
                 description: |-
                   PEM-encoded X.509 certificate bundle. Hosts discovered by this
