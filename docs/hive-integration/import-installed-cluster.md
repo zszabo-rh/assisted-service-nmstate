@@ -129,6 +129,7 @@ spec:
   pullSecretRef:
     name: pull-secret
   sshAuthorizedKey: "..." # Optional but it can be handy to be able to log into nodes to troubleshoot.
+  additionalSshAuthorizedKeys: "...\n...\n..." # More keys, also optional.
 EOF
 ```
 

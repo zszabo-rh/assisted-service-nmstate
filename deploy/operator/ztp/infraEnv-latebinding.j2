@@ -9,6 +9,7 @@ spec:
   pullSecretRef:
     name: '{{ pull_secret_name }}'
   sshAuthorizedKey: '{{ ssh_public_key }}'
+  additionalSshAuthorizedKeys: '{{  additional_ssh_public_key  }}'
   # enable serial console when booting on the disccovery ISO
   # the console output will be logged by libvirt in order to ease debugging
   kernelArguments:
